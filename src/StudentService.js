@@ -1,7 +1,7 @@
 // src/studentService.js
 import axios from 'axios';
 
-const API_URL = 'http://localhost:8080/student'; // Adjust the URL as needed
+const API_URL = 'https://curd-api-backend.onrender.com/student'; // Adjust the URL as needed
 
 export const createStudent = async (student) => {
     try {
